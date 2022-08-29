@@ -1,83 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Noto+Sans+Kannada:wght@700&family=Roboto+Condensed:wght@300&display=swap');
 body{
-    background-color: rgb(118, 93, 142);
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-   
-  }
-  #container{
-    background-color: lightgrey;
-    background-image: url(https://media.istockphoto.com/id/492428708/photo/beautiful-village-house-with-garden.webp?s=612x612&w=is&k=20&c=zrQaDYmG28LJ7BNjOP9Dx2TSusnmMeRc58iEhjMUBEg=);
-    width: 200px;
-    height: 400px;
-    border: 1px solid white;
-    top:200px;
-    left:50%;
-    border-radius: 7px;
+    padding: 0;
+    margin: 0;
     display: flex;
-    align-items: flex-end;
-  
-  }
-  #nav-bar{
-    background-color: antiquewhite;
-    width:200px;
-    height:35px;
-    display:flex;
-    justify-content:space-evenly ;
-    align-items: flex-end;
-    padding-bottom: 5px;
-    border-radius: 0px 0px 7px 7px;
-  
-  }
-  #idHome{
-    color: rgb(62, 62, 170);
-  }
-  
-  h6{
-    display: inline;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-  
-  #home
-  {
-    padding: 5px;
-    width: 20px;
-    height: 20px;
-    color:rgb(62, 62, 170); 
-    font-size: small;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
     
-  }
-  #Work
-  {
-    padding: 5px;
-    width: 20px;
-    height: 20px; 
-    font-size: small;
-  }
-  
-  #Blog
-  {
-    padding: 5px;
-    width: 20px;
-    height: 20px;
-    font-size: small;
-  }
-  #About
-  {
-    padding: 5px;
-    width:40px;
-    height: 20px;
-    font-size: small;
-  }
-  #us{
-    margin-left: 7px;
-  }
-  .work{
-    margin-left:5px
-  }
-  .blog
-  {
-    margin-left: 1px;
-  }
-  
+}
+ .container {
+    width: 900px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    flex-wrap: wrap; */
+    box-shadow: 1px 1px 20px rgb(105, 87, 87); 
+
+    
+ }
+ .main>img{
+    width: 450px;
+    height: 700px;
+    background-size: cover;  
+    box-shadow: 1px 1px 7px black;
+}
+.text{
+    position: relative;
+    right: 300px;
+    bottom:300px;
+    width:290px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+h3{
+    position: relative;
+    bottom:80px ;
+    
+}
+#photo{
+    position: relative;
+    bottom:40px ;
+    
+}
+#view{
+    width: 120px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(92, 88, 88);
+    text-decoration: none;
+
+    color: #000;
+    border-radius: 50px;
+    position: relative;
+    bottom: 60px;
+}
+.ourwork{
+    width: 800px;
+    height: 70px;
+    background-color: rgb(55, 53, 53);
+    position: relative;
+    bottom: 210px;
+    text-align: center;
+
+}
+.ourwork img{
+    background-size: cover;
+    width: 800px;
+}
+.discription{
+    width: 800px;
+    height:80px;
+    background-color:white;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+
+}
+.discription>p{
+    color: rgb(8, 72, 8);
+}
+footer{
+    width: 300px;
+    height: 200px;
+
+   position: relative;
+   top:4050px;
+   right: 550px;
+   border: 1px solid black;
+   
+}
+.foot {
+ display:grid;
+ place-content: center;
+
+}
