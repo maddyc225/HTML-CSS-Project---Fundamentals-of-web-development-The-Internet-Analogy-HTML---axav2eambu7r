@@ -1,98 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Noto+Sans+Kannada:wght@700&family=Roboto+Condensed:wght@300&display=swap');
-body{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Noto+Sans+Kannada:wght@700&family=Roboto+Condensed:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
- .container {
-    width: 900px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content:flex-end;
-    flex-wrap: wrap; */
-    box-shadow: 1px 1px 20px rgb(105, 87, 87); 
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+main {
+  width: 50%;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  box-shadow: 1px 1px 20px rgb(105, 87, 87);
+}
+.container:first-child {
+  display: flex;
+  align-items: center;
+}
+.text {
+  width: 40%;
+  text-align: center;
+}
 
-    
- }
- .main>img{
-    width: 450px;
-    height: 700px;
-    background-size: cover;  
-    box-shadow: 1px 1px 7px black;
+.text > h1 {
+  font-size: 2rem;
+  padding: 0 1rem;
+  margin-left: 30px;
+  font-weight: 500;
 }
-.text{
-    position: relative;
-    right: 300px;
-    bottom:300px;
-    width:290px;
-    height: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+.text > h2 {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-left: 30px;
 }
-h3{
-    position: relative;
-    bottom:80px ;
-    
+.text > a {
+  all: initial;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  padding: 14px 32px;
+  border-radius: 24px;
+  border: solid rgb(64, 58, 58) 2px;
 }
-#photo{
-    position: relative;
-    bottom:40px ;
-    
+.logo {
+  width: 60%;
 }
-#view{
-    width: 120px;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid rgb(92, 88, 88);
-    text-decoration: none;
+.logo > img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
 
-    color: #000;
-    border-radius: 50px;
-    position: relative;
-    bottom: 60px;
+.ourwork > h2 {
+  padding: 20px;
+  width: 100%;
+  background-color: rgb(55, 53, 53);
+  text-align: center;
+  box-shadow: 1px 1px 20px rgb(105, 87, 87);
 }
-.ourwork{
-    width: 800px;
-    height: 70px;
-    background-color: rgb(55, 53, 53);
-    position: relative;
-    bottom: 210px;
-    text-align: center;
-
+.discription {
+  box-shadow: 1px 1px 20px rgb(105, 87, 87);
 }
-.ourwork img{
-    background-size: cover;
-    width: 800px;
+.discription > img {
+  background-size: cover;
+  width: 100%;
 }
-.discription{
-    width: 800px;
-    height:80px;
-    background-color:white;
-    position: relative;
-    bottom: 40px;
-    text-align: center;
-
+.discription > p {
+  padding: 10px;
+  text-align: center;
+  color: rgb(8, 72, 8);
+  background-color: white;
 }
-.discription>p{
-    color: rgb(8, 72, 8);
+.discription > h3 {
+  padding: 7px;
+  text-align: center;
 }
-footer{
-    width: 300px;
-    height: 200px;
-
-   position: relative;
-   top:4050px;
-   right: 550px;
-   border: 1px solid black;
-   
-}
-.foot {
- display:grid;
- place-content: center;
-
+footer {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
 }
