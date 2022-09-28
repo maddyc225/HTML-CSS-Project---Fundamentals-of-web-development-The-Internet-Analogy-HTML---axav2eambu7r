@@ -10,7 +10,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 main {
-  width: 50%;
+  width: 60%;
 }
 .container {
   height: 100vh;
@@ -85,4 +85,28 @@ footer {
   width: 100%;
   padding: 50px;
   text-align: center;
+}
+  
+@media screen and (max-width:1000px) 
+{
+  
+  main{
+    width: 60%;
+     
+  }
+  .container {
+    flex-direction: column-reverse;
+  
+  }
+  .container .text{
+    width: 100%;
+    margin-bottom: 60px;
+  
+  }
+  .container .logo 
+  {
+  width: 100%;
+  object-fit: contain;
+  }
+ 
 }
